@@ -1,0 +1,1270 @@
+.diamon-ply-img img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+
+.diamon-ply-img {
+    padding: 10px;
+    border: var(--border);
+    margin-top: 20px;
+    text-align: center
+}
+
+.polyTable td {
+    padding: 3px 15px
+}
+
+.polyTable-img {
+    text-align: center;
+    margin-top: 20px
+}
+
+.polyTable-img img {
+    width: 600px
+}
+
+.poly-texture {
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    text-align: center
+}
+
+.poly-texture li {
+    width: calc(19% - 0px);
+    padding: 5px;
+    display: inline-block;
+    font-size: 12pt;
+    text-align: center
+}
+
+.poly-texture li figure {
+    width: 100%;
+    margin: 0 auto 10px;
+    background-color: #DDDDDD
+}
+
+.mm-listview>li {
+    text-transform: uppercase
+}
+
+.siteMap {
+    width: 900px;
+    margin: 45px auto;
+    padding: 30px;
+    background-color: #F0EDEE
+}
+
+.primary-menu .ddsmoothmenu ul li ul li a {
+    width: 270px !important;
+    text-align: left !important
+}
+
+.polycarbImgs {
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+.polycarbImgs li {
+    display: block;
+    width: calc(25% - 0px);
+    float: left;
+    padding: 3px
+}
+
+.polycarbImgs figcaption {
+    font-size: 14pt;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #EBE8E8
+}
+
+.product-details figure {
+    position: relative
+}
+
+.tabs-list li.tab-active {
+    background-color: #504a4a !important
+}
+
+.bx-wrapper .bx-pager {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    padding: 0;
+    left: auto;
+    width: auto;
+    z-index: 20000
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    height: 20px;
+    border-radius: 0;
+    width: 5px;
+    background-color: #e8e8e8
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background-color: #7bad89
+}
+
+.prodSelc {
+    margin-top: -5px
+}
+
+.prodSelc .ddsmoothmenu ul li a {
+    background-color: transparent
+}
+
+.prodSelc .ddsmoothmenu ul li a:link,
+.prodSelc .ddsmoothmenu ul li a:visited {
+    color: #262626;
+    border: none;
+    font-size: 11pt;
+    font-weight: normal;
+    padding-right: 35px
+}
+
+.primary-menu .ddsmoothmenu ul li ul li a {
+    width: 300px
+}
+
+.ddsmoothmenu ul li a.selected {
+    background-color: transparent !important
+}
+
+.primary-menu .ddsmoothmenu ul li ul li a:link,
+.primary-menu .ddsmoothmenu ul li ul li a:visited,
+.prodSelc .ddsmoothmenu ul li ul li a:link,
+.prodSelc .ddsmoothmenu ul li ul li a:visited {
+    background-color: #fff !important;
+    padding: 12px 12px;
+    border-bottom: 1px solid #E9E3E4;
+    text-transform: uppercase;
+    font-size: 9.5pt !important;
+    text-align: left !important
+}
+
+.primary-menu .ddsmoothmenu ul li ul,
+.prodSelc .ddsmoothmenu ul li ul {
+    -webkit-box-shadow: 5px 6px 17px -2px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 5px 6px 17px -2px rgba(0, 0, 0, 0.34);
+    box-shadow: 5px 6px 17px -2px rgba(0, 0, 0, 0.34);
+}
+
+.prodSelc .ddsmoothmenu ul li ul {
+    background-color: #fff
+}
+
+.prodSelc .ddsmoothmenu ul li ul li a:link,
+.prodSelc .ddsmoothmenu ul li ul li a:visited {
+    font-size: 10.5pt;
+    width: 200px
+}
+
+/* .prodSelc .ddsmoothmenu .downarrowclass {
+    width: 16px;
+    height: 8px;
+    background-image: url(../images/pr-sel-arrow.png);
+    top: 14px
+} */
+
+.primary-menu .ddsmoothmenu ul li a.active:link,
+.primary-menu .ddsmoothmenu ul li a.active:visited {
+    color: #476450 !important
+}
+
+.mobMenu,
+.banner-mob,
+.topCall {
+    display: none
+}
+
+.top-call img {
+    padding-right: 10px
+}
+
+.corg-install {
+    padding-bottom: 20px
+}
+
+
+
+@media screen and (max-height: 780px) {}
+
+@media (max-width: 1400px) {
+    #page {
+        font-size: 10.5pt;
+        line-height: 20px
+    }
+
+    .banner-caption {
+        font-size: 36pt;
+    }
+
+    .banner-bottom-content p {
+        font-size: 18pt;
+    }
+
+    .welcome-title {
+        font-size: 30pt;
+    }
+
+    .welcome-title span {
+        font-size: 26pt;
+    }
+
+    .widgetTitle {
+        font-size: 26pt;
+    }
+
+    .hme-prd-blk h2 {
+        font-size: 16pt;
+    }
+
+    plycarb-hme-top h4 {
+        font-size: 18pt;
+    }
+
+    .brand-log-title {
+        font-size: 20pt;
+    }
+
+    .polyHmeFeatures article li {
+        font-size: 16pt;
+    }
+
+    .page-title {
+        font-size: 22pt;
+    }
+
+    #page {
+        overflow-x: hidden
+    }
+
+    /*.deckwood-advan { background-size:auto }*/
+}
+
+@media (max-width: 1206px) {
+
+    .container,
+    .headerWrapp,
+    .banner-wrapp,
+    .sub-banner-wrap {
+        padding: 0 20px
+    }
+
+    .banner-caption {
+        font-size: 28pt;
+        padding-left: 40px
+    }
+
+    .banner-wrapp {
+        padding: 91px 0 0 0
+    }
+
+    .banner-bottom-content p {
+        padding-left: 40px
+    }
+
+    .banner-call {
+        padding: 29px 45px;
+    }
+
+    .banner-bottom-content p {
+        line-height: 91px;
+    }
+
+    .welcome-title {
+        font-size: 30pt;
+    }
+
+    .widgetTitle {
+        font-size: 24pt
+    }
+
+    .polyHmeFeatures {
+        margin: 0 50px
+    }
+
+    .polyHmeFeatures figure {
+        width: 730px;
+    }
+
+    .registr-form {
+        width: calc(100% - 60px)
+    }
+
+    .contact-address {
+        width: 383px
+    }
+
+    .gmap-block {
+        padding-left: 381px
+    }
+
+    .hme-pdt-brands-wrapp {
+        overflow: hidden
+    }
+
+    .footer-address {
+        padding-left: 25px;
+    }
+
+    .footer-menu ul {
+        padding-right: 22px;
+    }
+
+    .footer-menuPrdt {
+        padding-left: 22px
+    }
+
+    .xpleBann {
+        margin-right: 15px
+    }
+}
+
+@media (max-width: 1080px) {
+    :root {
+        --gutter: 30px 0;
+    }
+
+    .polyHmeFeatures {
+        margin: 0
+    }
+
+    .polyHmeFeatures figure {
+        width: 750px
+    }
+
+    .sub-banner-wrap {
+        padding-top: 45px
+    }
+
+    .about-graphics figure {
+        width: 400px
+    }
+
+    .bottom-slider-wrapp .container {
+        overflow: hidden
+    }
+
+    .prdts-common-section li {
+        padding: 0 10px;
+        width: calc(19% - 0px);
+    }
+
+    .primary-menu .ddsmoothmenu ul li a:link,
+    .primary-menu .ddsmoothmenu ul li a:visited {
+        font-size: 10pt;
+        padding: 15px 8px
+    }
+
+    .footer-menu ul {
+        float: none;
+        clear: both
+    }
+
+    .footer-menu {
+        padding-right: 50px;
+    }
+
+    .footer-menu {
+        padding-left: 50px
+    }
+
+    .polucarb-land li figure {
+        width: 408px;
+    }
+
+    .multiINstall {
+        float: left;
+        padding-left: 35px
+    }
+
+    .cplAppl {
+        padding-right: 35px
+    }
+
+    .hplIMg {
+        width: 352px;
+        margin-left: 20px;
+    }
+
+    .xpleBann {
+        width: 370px
+    }
+
+    .xlp-features li {
+        width: calc(32.5% - 0px);
+    }
+
+    .siteMap {
+        width: calc(100% - 0px);
+        margin: 45px auto;
+        padding: 30px;
+        background-color: #F0EDEE;
+    }
+
+    .siteMap .footer-menu {
+        width: 400px
+    }
+
+    .siteMap .footer-menu ul {
+        float: left;
+        clear: left
+    }
+
+}
+
+@media (max-width: 990px) {
+    .showmenu {
+        display: block;
+        width: auto;
+        float: right;
+        padding-top: 5px
+    }
+
+    .primary-menu {
+        display: none
+    }
+
+    .mh-head .hamburger-inner,
+    .mh-head .hamburger-inner:after,
+    .mh-head .hamburger-inner:before {
+        background: #223783;
+    }
+
+    .mh-head {
+        background-color: transparent
+    }
+
+    .hme-pycarb-tech-wrapp article {
+        padding-right: 0
+    }
+
+    .welcImg {
+        width: 320px;
+        padding-left: 30px
+    }
+
+    .polyHmeFeatures figure {
+        width: 655px;
+    }
+
+    .footer-menu {
+        padding-right: 60px;
+    }
+
+    .footer-menuPrdt {
+        padding-left: 60px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .footer-menu {
+        display: none
+    }
+
+    .sub-page .subTitle {
+        text-align: left
+    }
+
+    .footer-address {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        width: 405px;
+    }
+
+    .footer-wrapp {
+        padding: 30px 0 25px
+    }
+
+    .cpy-wrap {
+        margin-top: 24px
+    }
+
+    .banner-bottom-content p {
+        font-size: 12pt
+    }
+
+    .tabs-container h2.accordion {
+        background: #466450;
+    }
+
+    h2.tab-active {
+        background: #203a7f !important;
+        color: #fff !important;
+    }
+
+    .product-secnd-cnt li:nth-child(odd) article,
+    .product-secnd-cnt li:nth-child(odd) figure,
+    .product-secnd-cnt li:nth-child(even) figure {
+        padding-left: 0;
+        position: relative;
+    }
+
+    .product-secnd-cnt li:nth-child(even) article {
+        padding-right: 0
+    }
+
+    .product-secnd-cnt li:nth-child(odd) figure,
+    .product-secnd-cnt li:nth-child(even) figure {
+        width: 400px;
+        margin: 0 auto
+    }
+
+    .indLIsting li {
+        width: calc(49% - 15px);
+    }
+
+    .plycarb-hme-top h4 {
+        text-align: left
+    }
+
+    .topCall {
+        right: 44px
+    }
+
+    .multTypAp {
+        padding-right: 0;
+        float: none;
+        clear: both;
+        width: calc(100% - 0px)
+    }
+
+    .prdt-logo {
+        width: 120px;
+        background-color: #f6f4f5;
+        padding: 0 15px
+    }
+
+    .turbloLogo img {
+        width: 120px
+    }
+
+    .cplAppl {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .cPlankApplication {
+        padding: 15px 15px
+    }
+
+    .product-details-fiber-plank figure,
+    .product-details-fiber-plank article {
+        float: none;
+        clear: both;
+        padding-right: 0;
+        width: calc(100% - 0px)
+    }
+
+    .product-details-fiber-plank article {
+        margin-top: 20px
+    }
+
+    .featuresWrap {
+        padding: 20px
+    }
+
+    .testiBlocks li {
+        width: calc(100% - 0px);
+        border-bottom: 1px solid var(--border-color)
+    }
+
+    .testiBlocks ul:after {
+        display: none
+    }
+
+    .deck-texture li:lst-child {
+        display: block;
+        width: calc(350px - 0px);
+        float: none;
+        clear: both
+    }
+
+    .loader-align {
+        width: 250px
+    }
+}
+
+@media (max-width: 680px) {
+    .hme-pycarb-tech-wrapp {
+        background-image: none
+    }
+
+    .hme-pycarb-tech-wrapp article {
+        padding-left: 0
+    }
+
+    .hme-prd-blk h2 {
+        font-size: 12pt
+    }
+
+    .banner-bottom-content p {
+        float: none;
+        clear: both;
+        text-align: center;
+        line-height: normal;
+        padding: 20px
+    }
+
+    .banner-call {
+        float: none;
+        clear: both;
+        width: auto;
+        text-align: center;
+        padding: 20px
+    }
+
+    .banner-call br,
+    .banner-bottom:before {
+        display: none
+    }
+
+    .banner-caption {
+        font-size: 30pt;
+        padding-left: 30px;
+        bottom: 21px
+    }
+
+    .plycarb-hme-top h5 {
+        font-size: 26pt;
+    }
+
+    .plycarb-hme-top h5 span {
+        font-size: 10pt;
+    }
+
+    .plycarb-hme-top {
+        padding: 30px 0
+    }
+
+    .sub-page {
+        padding: 30px 0 0 0;
+    }
+
+    .page-title {
+        font-size: 18pt;
+        margin-bottom: 10px;
+        padding-bottom: 10px
+    }
+
+    .ph-gall li figcaption {
+        font-size: 10pt;
+        padding: 3px 0
+    }
+
+    .video-gall li {
+        display: inline-block;
+        width: calc(100% - 0px);
+        padding: 15px;
+    }
+
+    .deckwood-advan .listing li {
+        width: calc(100% - 0px);
+        margin: 0 0px
+    }
+
+    .deckwood-advan {
+        background-size: cover
+    }
+
+    .form-left,
+    .form-right {
+        width: calc(100% - 0px)
+    }
+
+    .banner-call {
+        display: none
+    }
+
+    .banner-bottom {
+        top: 0;
+        position: static
+    }
+
+    .welcome-wrapp {
+        padding-top: 0
+    }
+
+    .welcome-block {
+        padding-top: 30px
+    }
+
+    .bx-wrapper .bx-pager {
+        bottom: 0
+    }
+
+    .banner-caption .container {
+        padding: 0
+    }
+
+    .banner-model-2 {
+        bottom: 0
+    }
+
+    .irmultiwall,
+    .deck-texture,
+    .multiwallListings {
+        padding: 10px
+    }
+
+    .irmultiwall figure {
+        margin-right: 15px
+    }
+
+    .prdts-common-section {
+        padding: 25px 0
+    }
+
+    .hpl-misc-blocks {
+        margin-top: 20px;
+        padding: 15px 20px 20px 15px;
+    }
+
+    .pdtBlock-group,
+    .sdlTech {
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    .hplIMg {
+        width: 250px;
+        padding-bottom: 15px
+    }
+
+    .ph-gall li {
+        width: calc(32.5% - 0px);
+    }
+
+    .poly-texture li {
+        width: calc(33% - 0px)
+    }
+
+    .brand-log-title {
+        font-size: 16pt
+    }
+
+}
+
+@media (max-width: 620px) {
+    .banner-desk {
+        display: none
+    }
+
+    .banner-mob {
+        display: block
+    }
+
+    .hme-prd-blk li {
+        width: calc(100% - 0px);
+    }
+
+    .cpy,
+    .design {
+        float: none;
+        clear: both;
+        text-align: center
+    }
+
+    .welcome-title span {
+        font-size: 28pt
+    }
+
+    .widgetTitle {
+        font-size: 20pt
+    }
+
+    .view-all-btn a:link,
+    .view-all-btn a:visited {
+        padding: 8px 0
+    }
+
+    .welcome-block {
+        padding-top: 30px
+    }
+
+    .welcImg {
+        width: 160px
+    }
+
+    .welcome-title {
+        font-size: 26pt
+    }
+
+    .welcome-title span {
+        font-size: 20pt;
+    }
+
+    .prdts-common-section li {
+        padding: 0 10px;
+        width: calc(125px - 0px);
+    }
+
+    .productsTop {
+        position: relative;
+        padding-top: 20px
+    }
+
+    .prodSelc {
+        position: absolute;
+        top: -15px;
+        right: 0
+    }
+
+    .image-three-column li {
+        width: calc(49% - 0px)
+    }
+
+    .image-three-column li:last-child {
+        display: none
+    }
+
+    .btnBlok {
+        width: auto
+    }
+
+    .registr-form {
+        width: calc(100% - 0px);
+        margin: 0 0 30px;
+        padding: 0 20px 30px
+    }
+
+    .contact-address {
+        width: 100%;
+        padding: 20px;
+        position: static
+    }
+
+    .gmap-block {
+        padding-left: 0px
+    }
+
+    .productsTop hr {
+        margin: 0
+    }
+
+    .indLIsting li {
+        width: auto;
+        font-size: 10pt
+    }
+
+    .listing li:before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .banner-caption {
+        font-size: 20pt
+    }
+
+    .polycarbImgs li {
+        display: block;
+        width: calc(50% - 0px);
+        float: left;
+        padding: 3px
+    }
+
+    .multiSize,
+    .multiINstall {
+        width: calc(100% - 0px);
+        padding: 0
+    }
+
+    .multiINstall {
+        margin-top: 20px
+    }
+
+    .corg-install li {
+        width: calc(33% - 4px);
+    }
+
+    .turbTable,
+    .table-left,
+    .table-right {
+        width: calc(100% - 0px);
+        margin: 0;
+    }
+
+    .puff-details li {
+        width: calc(100% - 0px);
+    }
+
+    .puff-details {
+        padding: 0
+    }
+
+    .puff-details {
+        margin-bottom: 0
+    }
+
+    .featuresWrap {
+        padding: 10px
+    }
+
+    .xlp-features li,
+    .xlpAplication li {
+        width: calc(100% - 0px);
+    }
+
+    .about-desc,
+    .xlpAplication,
+    .deckwood-advan {
+        padding: 15px
+    }
+
+    .deck-texture figure {
+        padding: 3px
+    }
+
+    .contact-address {
+        position: static
+    }
+
+    .contact-address figure {
+        padding-top: 0;
+        margin-top: 0
+    }
+
+    .prd-banner img {
+        aspect-ratio: 4/2;
+        object-fit: cover
+    }
+
+    .prodSelc {
+        top: -25px;
+        background-color: var(--background-color)
+    }
+
+    .deck-texture li {
+        display: block;
+        width: calc(49% - 0px);
+        float: left;
+    }
+
+    .bottom-slider-wrapp {
+        padding: 20px 0
+    }
+
+    .poly-texture li {
+        width: calc(49% - 0px)
+    }
+
+    .polyHmeFeatures article li {
+        font-size: 12pt
+    }
+
+    .abtImg {
+        float: none;
+        clear: both;
+        margin: 0 auto;
+        width: 60%
+    }
+
+    .mission-vison li {
+        width: calc(100% - 0px);
+    }
+
+    .mission-vison:after {
+        display: none
+    }
+
+    .mission-vison {
+        padding: 10px
+    }
+
+    .mission-vison img {
+        width: 150px
+    }
+
+    .mission-vison li:last-child,
+    .mission-vison li,
+    .mission-vison li:first-child {
+        padding: 10px 0
+    }
+
+    .showmenu {
+        margin-right: 15px
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-desk {
+        display: none
+    }
+
+    .banner-mob {
+        display: block
+    }
+
+    .footLogo {
+        width: 160px;
+        margin: 0 auto
+    }
+
+    .footer-address {
+        padding-left: 0px;
+        padding-bottom: 55px;
+        width: auto;
+        text-align: center
+    }
+
+    .smo {
+        position: absolute;
+        bottom: 0;
+        height: 42px;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 200px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+    }
+
+    .polyHmeFeatures article li {
+        width: calc(49% - 0px)
+    }
+
+    .prod-lading li {
+        width: calc(100% - 0px);
+        padding: 15px 0px;
+    }
+
+    .smo li {
+        width: 42px !important;
+        height: 42px;
+        float: left;
+        display: block;
+        margin: 0 10px;
+    }
+
+    .banner-bottom-content p,
+    .banner-call {
+        padding: 10px 0
+    }
+
+    .ph-gall li {
+        display: inline-block;
+        width: calc(49% - 0px);
+        position: relative;
+    }
+
+    .images-two-column li {
+        display: inline-block;
+        width: calc(100% - 0px);
+        padding: 10px 0px;
+    }
+
+    .product-secnd-cnt li:nth-child(odd) figure,
+    .product-secnd-cnt li:nth-child(even) figure {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        position: static
+    }
+
+    .topCall span {
+        display: none
+    }
+
+    .topCall {
+        padding-top: 0
+    }
+
+    .topCall a:link,
+    .topCall a:visited {
+        background-size: 25px 25px
+    }
+
+    .prdts-common-section li {
+        padding: 0 5px;
+        width: calc(104px - 0px);
+    }
+
+    .cpy-wrap {
+        padding-top: 14px
+    }
+
+    .indLIsting li {
+        width: calc(49% - 15px);
+    }
+
+    .polucarb-land li figure {
+        margin: 0 auto;
+        padding: 0
+    }
+
+    .polucarb-land li:nth-child(odd) figure {
+        float: none;
+        clear: both;
+        padding: 15px;
+        margin: 0 auto;
+        padding: 0
+    }
+
+    .polucarb-land li:nth-child(even) figure {
+        float: none;
+        clear: both;
+        padding: 15px;
+        margin: 0 auto;
+        padding: 0
+    }
+
+    .polucarb-land li article {
+        padding: 20px 15px 20px 15px !important
+    }
+
+    .polyTable {
+        overflow: auto
+    }
+
+    .polyTable td,
+    .polyTable th,
+    .turbTable td,
+    .turbTable th,
+    .cplkTable td,
+    .cplkTable th {
+        padding: 5px;
+        font-size: 10pt
+    }
+
+    .corg-install li {
+        width: calc(50% - 4px);
+    }
+
+    .cplAppl,
+    .cplankFEatures {
+        width: calc(100% - 0px);
+        margin: 0;
+        padding: 0;
+        border: none
+    }
+
+    .cplAppl {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid var(--border-color)
+    }
+
+    .cement-pl-gall li {
+        display: block;
+        width: 49.33%;
+        float: left;
+    }
+
+    .pdtBlockLeft,
+    .pdtBlockRight {
+        width: calc(100% - 0px);
+        margin: 0 0px;
+    }
+
+    .pdtBlockLeft {
+        padding-right: 0px;
+        padding-bottom: 10px;
+        border: var(--border);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .pdtBlockRight {
+        padding-left: 0;
+        padding-top: 10px
+    }
+
+    .pdtBlock-group,
+    .sdlTech {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .puff-details li,
+    .miscItem {
+        width: calc(100% - 0px);
+        margin-bottom: 10px;
+    }
+
+    .puff-details li,
+    .deckinstallProcess li:nth-child(odd) figure,
+    .deckinstallProcess li:nth-child(even) figure {
+        margin: 0;
+        padding: 0
+    }
+
+    .deckinstallProcess li:nth-child(odd) figure,
+    .deckinstallProcess li:nth-child(even) figure {
+        padding-bottom: 20px
+    }
+/* 
+    .container,
+    .headerWrapp {
+        padding: 0 10px
+    } */
+
+    .irmultiwall figure {
+        float: none;
+        clear: both;
+        width: calc(100% - 0px);
+        margin-bottom: 10px
+    }
+
+    .irmultiwall article {
+        width: calc(100% - 0px)
+    }
+
+    .logoTh01 {
+        float: left;
+        margin: 20px 8px 20px 0;
+        width: 84px;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .about-graphics figure {
+        width: auto
+    }
+
+    .down-eb-cn-img {
+        padding-bottom: 0
+    }
+
+    .down-eb-cn {
+        width: calc(100% - 0px);
+        padding: 20px 10px
+    }
+
+    .xlp-features li {
+        width: calc(100% - 0px);
+    }
+
+    .prdts-common-section li {
+        padding: 0 5px;
+        width: calc(90px - 0px);
+    }
+}
+
+@media (max-width: 320px) {
+    .welcImg {
+        display: none
+    }
+
+    .ph-gall li {
+        width: calc(100% - 0px);
+    }
+}
+
+
+  
+
+/* */
